@@ -29,9 +29,9 @@ class ContagemPaisModel extends ContagemPais {
         json['Slug'] == null) return null;
 
     return ContagemPaisModel(
-        (json['Country']),
-        (json['CountryCode']),
-        (json['Slug']),
+        json['Country'] as String,
+        json['CountryCode'] as String,
+        json['Slug'] as String,
         (json['NewConfirmed'] as num).toDouble(),
         (json['TotalConfirmed'] as num).toDouble(),
         (json['NewDeaths'] as num).toDouble(),

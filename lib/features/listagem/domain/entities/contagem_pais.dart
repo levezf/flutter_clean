@@ -4,9 +4,9 @@ import 'contagem.dart';
 
 class ContagemPais extends Contagem{
 
-  String country;
-  String countryCode;
-  String slug;
+  final String country;
+  final String countryCode;
+  final String slug;
   
   ContagemPais({
     @required this.country,

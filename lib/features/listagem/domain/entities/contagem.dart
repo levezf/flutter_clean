@@ -3,12 +3,12 @@ import 'package:equatable/equatable.dart';
 
 class Contagem extends Equatable{
 
-  double newConfirmed;
-  double totalConfirmed;
-  double newDeaths;
-  double totalDeaths;
-  double newRecovered;
-  double totalRecovered;
+  final double newConfirmed;
+  final double totalConfirmed;
+  final double newDeaths;
+  final double totalDeaths;
+  final double newRecovered;
+  final double totalRecovered;
 
   Contagem(this.newConfirmed,
     this.totalConfirmed,

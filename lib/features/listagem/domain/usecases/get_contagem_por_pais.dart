@@ -13,6 +13,6 @@ final ListagemRepository repository;
 
   @override
   Future<Either<Failure, List<ContagemPais>>> call(NoParams noParams) async {
-    return await repository.getContagemPorPais();
+    return repository.getContagemPorPais();
   }
 }

@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_clean/features/listagem/domain/entities/contagem.dart';
 
 class ContagemModel extends Contagem {

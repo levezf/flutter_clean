@@ -14,7 +14,7 @@ class GetContagemGlobal implements UseCase<Contagem, NoParams>{
 
   @override
   Future<Either<Failure, Contagem>> call(NoParams noParams) async {
-    return await repository.getContagemGlobal();
+    return repository.getContagemGlobal();
   }
 
 }
