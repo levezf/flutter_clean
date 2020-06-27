@@ -4,7 +4,7 @@ import 'package:flutter_clean/features/listagem/data/models/contagem_model.dart'
 import 'package:flutter_clean/features/listagem/data/models/contagem_pais_model.dart';
 import 'package:meta/meta.dart';
 import 'package:flutter_clean/core/error/failures.dart';
-import 'package:flutter_clean/core/platform/network_info.dart';
+import 'package:flutter_clean/core/network/network_info.dart';
 import 'package:flutter_clean/features/listagem/data/datasources/contagem_local_datasource.dart';
 import 'package:flutter_clean/features/listagem/data/datasources/contagem_remote_datasource.dart';
 import 'package:flutter_clean/features/listagem/domain/entities/contagem.dart';

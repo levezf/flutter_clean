@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter_clean/core/error/exceptions.dart';
 import 'package:flutter_clean/core/error/failures.dart';
-import 'package:flutter_clean/core/platform/network_info.dart';
+import 'package:flutter_clean/core/network/network_info.dart';
 import 'package:flutter_clean/features/listagem/data/models/contagem_model.dart';
 import 'package:flutter_clean/features/listagem/data/models/contagem_pais_model.dart';
 import 'package:flutter_clean/features/listagem/data/repositories/listagem_repository_impl.dart';
